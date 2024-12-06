@@ -1,0 +1,32 @@
+<style>
+* {
+  box-sizing: border-box;
+  border : 2;
+} 
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=text] {
+  width: 20%;
+padding: 12px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px Solid lightgreen;
+  border-radius: 4px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border:2;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.container {
+  border-radius: 350px;
+  background-color: #f2f2f2;
+  padding: 1px;
+}
+</style>
