@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
-<title>FORM</title><head><center><b style="color:violet;"><marquee width="50%" height="25%" bgcolor="white">
-   <blink>This is Created By Mohammed Imran </blink></marquee></b></center>
+<title>FORM</title>
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<center><strong style="color:violet;"><marquee width="50%" height="25%" bgcolor="white">
+<blink>This is Created By Mohammed Imran </blink></marquee></strong></center>
 <style>
 * {
   box-sizing: border-box;
@@ -34,15 +37,33 @@ input[type=button], input[type=submit], input[type=reset] {
   background-color: #f2f2f2;
   padding: 1px;
 }
+div .transbox {
+background-image : url(C:\Users\MOHAMMED IMRAN\Pictures\Saved Pictures\TCS_files\griet.jpej.png);
+background-repeat:repeat;
+  height:100%;
+  weight:100%;
+  margin: 50px;
+  background-color: #ffffff;
+  border: 0px solid black;
+  opacity: 0.2;
+}
+div .transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+img:hover  {
+opacity : 1;
+}
 </style>
 </head>
 <body bgcolor="LIGHTGREEN">
 <div class="container">
-<font color="blue"><u><h1><center><a href="file:///C:/Users/MOHAMMED%20IMRAN/Desktop/temp/index.html">STUDENTS REGISTRATION FORM</a></center></h1></u></font>
-<center><p><a href="file:///C:/Users/MOHAMMED%20IMRAN/Pictures/Saved%20Pictures/TCS_files/GR.JPEG" download="griet">
-   <img src="file:///C:/Users/MOHAMMED%20IMRAN/Pictures/Saved%20Pictures/TCS_files/GR.JPEG" alt="griet" width="300"height="150">
-</img></a></p></center>
-<center><P><a href="https://www.griet.ac.in/">GRIET COLLEGE</a></P></center>
+<font color="blue"><center><u><h1><a href="file:///C:/Users/MOHAMMED%20IMRAN/Desktop/temp/index.html">STUDENTS REGISTRATION FORM</a></h1></u></center></font>
+<center><div class="transbox"><img src="C:\Users\MOHAMMED IMRAN\Pictures\Saved Pictures\TCS_files\griet.jpej.png" width="250"height="250"></center>
+<center><a href="file:///C:/Users/MOHAMMED%20IMRAN/Pictures/Saved%20Pictures/TCS_files/GR.JPEG" download="griet"></center>
+<center><img src="file:///C:/Users/MOHAMMED%20IMRAN/Pictures/Saved%20Pictures/TCS_files/GR.JPEG" alt="griet" width="500"height="200"></a></center>
+<center><a href="https://www.griet.ac.in/">GRIET COLLEGE</a></p></center>
 <form style="background-image: url('C:\Users\MOHAMMED IMRAN\Pictures\Saved Pictures\WhatsApp Image 2023-06-17 at 1.41.41 PM (3).jpeg'); 
 background-repeat: no-repeat; background-size: cover;"name="input"action="html_form_action.php method="post"></style>
 <center><b style="color:Indigo;"> DATE : </b> <input type="date"name="DATE"> <b style="color:Chocolate;"> TIME : </b> <input type="time"name="Time"></center></br>
@@ -76,8 +97,6 @@ MALE <input type="radio"name="GENDER"value="FEMALE"/> FEMALE</center></br>
 <center><small>Format : abCD123@!</small></center><br>
 <center>RE-PASSWORD : <input type="password"name=RE-PASSWORD maxlength="15" size="15"></center></br>
 <center><label for="comments"><b style="color:red;"> Comments : </b></label></center> <center><textarea id="comments" name="comments" rows="4"></textarea></center><br>
-<center><input type="submit"value="Register"> <input type="Reset"value="Reset"></center><br>
-</form>
-</div>
+<center><input type="submit"value="Register"> <input type="Reset"value="Reset"></div></center>
 </body>
 </html>
